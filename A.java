@@ -9,4 +9,7 @@ public class A {
     public int resta(){
         return a-b;
     }
+    public int multiplicacion(){
+        return a*b;
+    }
 }
