@@ -8,5 +8,12 @@ public class B {
     public String getApellido(){
         return this.apellido;
     }
+    public void setNombre(String nombre){
+        this.nombre=nombre;
+    }
+    public void setApellido(String apellido){
+        this.napellido=apellido;
+    }
+        
     
 }
