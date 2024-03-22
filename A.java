@@ -5,4 +5,8 @@ public class A {
     public int suma(){
         return a+b;
     }
+
+    public int resta(){
+        return a-b;
+    }
 }
