@@ -2,6 +2,11 @@ public class B {
     private String nombre;
     private String apellido;
 
+    public B(String nombre, String apellido) {
+        this.nombre = nombre;
+        this.apellido = apellido;
+    }
+    
     public String getNombre(){
         return this.nombre;
     }
@@ -12,8 +17,10 @@ public class B {
         this.nombre=nombre;
     }
     public void setApellido(String apellido){
-        this.napellido=apellido;
+        this.apellido=apellido;
     }
+
+    
         
     
 }
