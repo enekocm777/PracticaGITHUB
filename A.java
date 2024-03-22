@@ -1,4 +1,8 @@
 public class A {
     private int a;
     private int b;
+
+    public int suma(){
+        return a+b;
+    }
 }
