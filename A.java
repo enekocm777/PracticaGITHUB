@@ -12,7 +12,11 @@ public class A {
         return a*b;
     }
     public int division(){
-        return a/b;
+        try{
+            return a/b;
+        }catch(ArithmeticException e){
+            System.out.println("No se puede dividir entre 0");
+        }
     }
     public int potencia(){
         return a^b;
