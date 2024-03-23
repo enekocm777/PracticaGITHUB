@@ -14,4 +14,7 @@ public class A {
     public int division(){
         return a/b;
     }
+    public int sumaCuadrados(){
+        return a^2+b^2;
+    }
 }
